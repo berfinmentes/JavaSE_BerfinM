@@ -18,5 +18,7 @@ public class ArithmeticOperator {
 
         //Mod Alma Operatoru
         System.out.println("C % B = " + (number3%number2));
+
+        System.out.println((2+5));
     }
 }
