@@ -13,15 +13,10 @@ public class ArrayQ2 {
         sayi = scanner.nextInt();
 
 
-
-
-
-
-
-
-
         {
             for (int i = 0; i <= sayi; i++)
                 System.out.println();
+        }
     }
 }
+

@@ -19,7 +19,6 @@ public class ArrayQ1 {
         //Foreach ile yap
         toplam= 0;
         ortalama=0;
-        for(int i =0; i<numberArr.length)
 
 
 
