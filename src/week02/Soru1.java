@@ -12,10 +12,12 @@ public class Soru1 {
         System.out.println("Lütfen Sayı Giriniz");
         sayi = scanner.nextInt();
 
-        {for(int i = 1; i<=sayi; i++)
-            System.out.println();
+        {
+            for (int i = 1; i <= sayi; i++)
+                System.out.println();
 
+
+        }
 
     }
-
 }
