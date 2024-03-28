@@ -7,11 +7,16 @@ public class Person {
     String gender;
 
 
-
-    public void sleep(){
+    public void sleep() {
         System.out.println(name + " is sleeping");
+
+    }public void walk () {
+            System.out.println(name + " is walking");
+        }
     }
-    public void walk (){
-        System.out.println(name + " is walking");
-    }
-}
+
+
+
+
+
+

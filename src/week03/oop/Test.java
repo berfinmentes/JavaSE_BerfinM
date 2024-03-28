@@ -28,5 +28,6 @@ public class Test {
         System.out.println(p1.nickname);
 
 
+
     }
 }
