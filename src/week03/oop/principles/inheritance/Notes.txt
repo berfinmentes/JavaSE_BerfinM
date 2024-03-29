@@ -1,0 +1,43 @@
+/*Inheritance( Kalıtım)(-OOP'ın 4 temel kavramlarından biridir-)
+
+    * ""extends"" anahtar kelimesiyle yapılmaktadır
+    * Kalıtımın iki amacı vardır;
+    * -Kodların tekrarını önlemek(code duplication)
+    * Polymarphise sağlamak(ayrıntılı anlatılacak)
+    --> public class Dog extends Animal {
+    * "extends" anahtar kelimesiyie Animal sınıfının inheritance oluşturduk
+    ---->public void eat(){
+             System.out.println("I can eat");
+    *Bu metot sayesinde main sınıfında oluşturduğumuz dog nesnesi
+     sayesinde eat methodunu main sınıfında çalıştıabildik
+
+     Superclass---> Üst Sınıf
+     Subclass---> Alt sınıf
+
+     * Javada bir sınıf sadece tek bir sınıftan kalıtım alabilir.
+     * bir tane Superclas dan miras alınır. birden çok subclassı olabilir.
+
+      public class Animal { ---> Supperclass
+      public class Dog extends Animal ---> Subclass
+
+   *Javada inheritance bir "is a relationship"dir.
+   *Yalnızca iki sınıf arasında is a relationship bağlantısı varsa kalıtım yapılr
+   --> Dog is a Animal
+   *"Super... " anahtar kelimesi Subclass daki bir methodu vs çağırmak için kullnaılır.
+
+ @Override
+    public void eat()
+        super.eat();          --> superclass'daki(Animal) eat () metodu
+       /* this.eat();         --> Dog class methodu
+        System.out.println("I eat dog food");
+
+    ---> Override methodu ezmek anlamında kullanılmıştır
+    -> Sağ -> Generade -> override methot
+
+    * Kalıtım yaparken bir sınıf diğerini kalıtıyorsa
+    subclass superclassın daha özelleşmiş hali olmalıdır.
+    Örn---> her köpek hayvandır, ama her hayvan köpek değildir
+
+
+
+
