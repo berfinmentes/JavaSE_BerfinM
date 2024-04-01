@@ -1,0 +1,63 @@
+                           -ABSTRACTİON-
+
+   -> Abstrackt methotların gövesi olmaz
+
+         abstract void method1();
+
+         Burada method1() soyut yöntemdir.
+
+   -> Standart metotlaın gövdesi olur
+
+        void method2(){}
+
+   ->Soyutlardır metotlardır
+   ->Soyut sınıflar (superclass) altına gelecek sınıfları (subclass)  uygulamaya zorlar.
+
+   -> Superclass'da soyut gövdesiz üretilen metotlar, alt sınıflarda(subclass) gövdeli bir şekilde yazılmalıdır.
+     (Soyut metotlar Override edilerek gövde sağlanır)
+
+
+      public abstract double calculateArea();
+
+      @Override
+         public double calculateArea(){
+
+         -> Abstract methot ve Override ediceğimiz gövdeli methodun accessleri aynı olmalıdır
+         }
+
+        --> Rectangle(double width, double height){
+                  this.width = width;
+              this.height = height;
+
+        *Canstructor ile private fieldlara değer atabilriz
+
+                Shape shape = new Shape();
+
+          ---> Inheritance ile farkı Override' dır
+          ->Inheritance' Override opsiyoneldir.
+
+              ---Parametreler constructorların içine yazılabilir
+          ->Abstract'da ise Override zorunludur.
+
+             ---Abstract bir sınıfta ise superclass sınıftaki
+           metotlar Override edilmeden subclass'larda çalışmaz.(Derleme hatası)
+
+           -> "Super()" anahtar kelimesşni kullanarak alt sınıftan soyut bir yapıcıya erişebilriz
+           -> "this." anahtar kelimesi ile de aynı sınıfta buulunan yapıcıya erişiriz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

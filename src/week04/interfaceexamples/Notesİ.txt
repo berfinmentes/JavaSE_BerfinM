@@ -1,0 +1,31 @@
+                             -INTERFACE-
+
+--> Tamamen soyut bir sınıftır.(abstract class). Bir grup abstract metot içerir( gövdesiz metotlar)
+
+
+--> Interface'ın constructor'ı yoktur.
+--> Abstraction elde etmek için kullanılır
+--> Çoklu kalıtım
+--> Bir sınıfa sadece bir kez kalıtım yapılabilir, ama birden çok interface'i implement edebilir.
+--> Loose coupling(az bağımlılık/gevşek bağımlılık) için kullanılır.(Super class ve Sub class arasındaki bağlantı)
+--> Interface'de ki metotlar final. public ve ststic'dir
+    ibterface Lamguage {}
+--> Object oluşturulmaz.
+--> Anahtar kelimesi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

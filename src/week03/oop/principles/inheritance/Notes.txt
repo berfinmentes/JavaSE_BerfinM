@@ -1,4 +1,8 @@
-/*Inheritance( Kalıtım)(-OOP'ın 4 temel kavramlarından biridir-)
+/*Inheritance( Kalıtım)
+
+
+
+(-OOP'ın 4 temel kavramlarından biridir-)
 
     * ""extends"" anahtar kelimesiyle yapılmaktadır
     * Kalıtımın iki amacı vardır;
@@ -37,6 +41,10 @@
     * Kalıtım yaparken bir sınıf diğerini kalıtıyorsa
     subclass superclassın daha özelleşmiş hali olmalıdır.
     Örn---> her köpek hayvandır, ama her hayvan köpek değildir
+
+
+    * Final bir değişkende tek bir ayraç vardır;
+    --> Büyük harflerle yazılır
 
 
 

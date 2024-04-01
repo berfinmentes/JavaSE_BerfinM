@@ -1,0 +1,31 @@
+                           -POLYMORPHİSM-
+                          (Çok  biçimlilik)
+   -> varlik = entitiy
+   -> Aynı isimli metotların farklı sınıflarda farklı şekilde uygulanmasıdır.
+   Hangi sınıfa çağırılacaksa ona göre şekillenir
+
+     -> Compile-time polymorphism <-
+   -> Aşırı yokleme ( method Overloading) ile elde edilir
+   -> Overloaded methodlarda;
+   * Methodların parametre sayısı veya türü mutlaka farklı olmalıdır
+   * Dönüş tipi aynı veya farklı olabilir
+   * Hangi methodun çağırılacağına "derleme zamanı" karar verir.(Parametrelerin sırasına göre)
+
+    MathOperations math= new MathOperations();
+
+    int result1 = math.add(10,20);          // int add(int a. int b) metodu çağırılır
+    double result2 = math.add(20,30);      // double add(double a, daouble b) methodu çağırılır
+
+    ----
+     int sum(int a, int b){
+            return a+b;
+        }
+        int sum(double c, int d){
+         return (int) (c*d); ----> double parametreyi int bir parametreye çevirirken dönüş tipini değiştir!!!
+
+
+
+
+
+
+
