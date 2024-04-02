@@ -1,0 +1,38 @@
+                             -FINAL-
+
+ --> Dweğiştilemeyen değişkenler ve nesneler için  kullanılır
+ --> immutable (değişmez) nesnele4r oluşturulmasına yardımci olur.
+ --> Genelde ilkel veri türlerinde ve nesnelerde kullanılırlar
+
+        String uuid = "123456";
+        String request = "123456";
+        System.out.println(uuid.concat(COLON).concat(request));
+
+        .concat birleştirme için kullanılır
+
+
+
+System.out.println("String builder");
+        StringBuilder sb = new StringBuilder();
+        System.out.println(sb.append(uuid).append(COLON).append(request));
+
+     -->   .append ve StringBuilder ile Stringleri immutable nesneler gibi kullabiliriz
+
+
+
+     String programmingLang = "Java,.NET,Pyhton";
+            String[] programmingArr = programmingLang.split(COMMA);
+             for(String lang : programmingArr){
+                    System.out.println(lang);
+
+     --> .split ile
+
+
+
+
+
+
+
+
+
+
