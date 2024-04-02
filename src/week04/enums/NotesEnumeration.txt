@@ -1,0 +1,33 @@
+                             -ENUMERATİON-
+
+ --> Kesin belirli sınırları olan verileri girmek için kullanırız.
+
+ -->"enum" anahtar kelimesiyle sınıf oluşturulr gibi oluşrulurur.
+
+ --> Enum sabit değerleri genelde büyük harflerle yazılırlar
+
+ ÖRN:
+ public enum Size {
+   SMALL, MEDIUM, LARGE, EXTRALARGE
+ }
+
+ -> Java Enum ordinal()
+
+
+ /*ordinal() metodu index değerimi döner*/
+
+   System.out.println(Size.SMALL.ordinal());
+
+  -> CompareTo()
+
+
+
+
+
+
+
+
+
+
+
+

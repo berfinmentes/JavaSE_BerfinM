@@ -1,0 +1,57 @@
+                             -WRAPPER-
+
+ -->Javada 8 tane primitiv type vardır. Bunlara karşılık gelen sınıflara Wrapper denir
+ ** Integer, Double, Long, Short, Character, Float, Byte
+
+ ->Parametreleri String kabul edibilirler.Bütük harfle yazılırlar.
+
+ --> valueOf()   String to Wrapper
+ --> shortValue()  Wrapper to primitive
+ --> byteValue()   Wrapper to primitive
+ --> paseInt()    String to primitive
+
+
+AutoBoxing = primitive type to wrapper  otomatik
+örn:
+    int number = 2;
+    Integer integer = number;
+    Integer integer2= 5;
+
+AutoUnBoxing = wrapper to primitive otomatik
+
+ Integer integer2= 5;
+    int number2 = integer2;
+
+UnBoxinng =
+
+ int unBoxing = number3.intValue();  //Unboxing
+
+--> Wrappeer classlar primitive türleri nesneye çevirip kullanmamızı sağlarlar
+
+--> Null değerini Wrapper objeleri içerisinde saklayabiliriz
+
+         Integer a = null;
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
