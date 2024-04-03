@@ -1,0 +1,147 @@
+                            ---MAP---
+
+-> Kendileriyle ilişkili keyleri kullanarak değerlere(value) erişir
+
+3 farklı sets( küme) var;
+
+
+-Map Interface olduğu için nesnesini oluşturamayız
+
+-HashMap ->
+-Enum  ->
+-LinkedHashMap ->
+-WeakHashMap ->
+-TreeMap ->
+
+
+-java.util.Map paketi kulllanılır
+
+
+ Map Methods:
+
+-put(K,V)  ->//öge ekleme
+
+HashMap<String, Integer> languageHashMap = new HashMap<>();
+
+        languageHashMap.put("Java",8);
+
+        languageHashMap.put("Python",1);
+
+        languageHashMap.put("JavaScript",3);
+
+        System.out.println("HashMap : "+languageHashMap);
+
+                      **HashMap : {Java=8, JavaScript=3, Python=1}
+
+-putAll()  ->
+
+-putIfAbsent(K,V)  ->
+
+-get(K)    -> Belirli bir key'e denk gelen value'yu dönürür
+
+String value = languageHashMap.get(2);
+
+        System.out.println("Value at key 2 : "+value);
+
+          **Value at key 2 : Python
+
+-getOrDefault(K, defaultValue)   -> //Key varsa Value'sunu yoksa defaultta "Not Found" dön
+
+ String value1 = languageHashMap.getOrDefault(1,"Not Found");
+
+          System.out.println("Value for key 1 : "+value1);
+
+                                           **Value for key 1 : Java
+
+             String value2 = languageHashMap.getOrDefault(5,"Not Found");
+
+                System.out.println("Value for key 1 : "+value2);
+
+                                          **Value for key 1 : Not Found
+
+
+-includeKey(K)  -> Key'in map de olup olmadığını kontrol eder.
+
+        if(languageHashMap.containsKey(2)){
+            System.out.println("Map contains key value of : 2 ");
+        }else {
+            System.out.println("Key Not Found.");
+        }
+        **Map contains key value of : 2
+
+-includeValue(V)  ->Value'in map de olup olmadığını kontrol eder.
+
+        if(languageHashMap.containsValue("Java")){
+            System.out.println("Map contains value of Java");
+        }else{
+            System.out.println("No such value.");
+        }
+                                 **Map contains value of Java
+
+->replace(K.V) -> Key 'in değerini belirtilen yeni değer Value ile değiştirir.
+
+        System.out.println("Orginal HashMap : "+languageHashMap);
+                                  **Orginal HashMap : {1=Java, 2=Python, 3=C}
+
+        languageHashMap.replace(3,"Swift");
+
+        System.out.println("HashMap after replace() : "+languageHashMap);
+                                 **HashMap after replace() : {1=Java, 2=Python, 3=Swift}
+
+-replace(K,oldValue,newValue)  -> Key' in değerini yalnızca K in değeri oldValue ile ilişkilendirilmişse newValue a atar
+
+-remove(K)   -> //Bir HashMap den ögeleri kaldırmak/Silmek
+
+        String value3 = languageHashMap.remove(3);
+
+        System.out.println("Removed value : "+value3);
+
+        System.out.println("Updated HashMap : "+languageHashMap);
+
+
+remove(K,V)  ->
+
+keySet()   ->//Keyleri bir set olarak dönme
+
+        System.out.println("Keys : "+languageHashMap.keySet());
+
+                    **Keys : [1, 2, 3]
+
+values()   -> //Value ları set olarak dönme
+
+                      System.out.println("Values : "+languageHashMap.values());
+
+entrySet()  -> Bütün key/value listelerini döndürür
+
+-loops()  ->  Map' in bir görünümünü ögelerini döndürür
+
+
+
+    -HashMap-
+
+ -En hızlı erişim
+
+ -Key'ler sıralı değildir
+
+ -null key ve value kabul eder(Çünkü obje alır)
+
+ -Tekrarlanmış key kabul etmez
+
+
+ Syntax;
+  Map<K,V> map = new HashMap<>();
+
+
+ Orn:
+ public class HashMapExample01 {
+
+ }
+     public static void main(String[] args) {
+
+     }
+         Map<String,String> map = new HashMap<>();
+
+
+
+
+
