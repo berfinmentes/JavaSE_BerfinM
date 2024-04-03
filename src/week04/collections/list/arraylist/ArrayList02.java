@@ -1,4 +1,4 @@
-package week04.collections.list;
+package week04.collections.list.arraylist;
 
 import java.awt.datatransfer.StringSelection;
 import java.util.ArrayList;

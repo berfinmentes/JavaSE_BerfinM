@@ -92,27 +92,17 @@ System.out.println("List before Remove : "+nameList);
  Syntax;
  ArrayList<Type> arrayList = new ArrayList<>();
 
-                2-LinkedList
 
- ->Çift bağllantılı liste işlevselliğini sağlar.
+!!!!Ekleme silme işlemleri yapılacaksa "LinkedList"
+     Arama yapılacaksa "ArrayList" kullanılır
 
- ->Yani öncesi ve sonrasını bağlı olarak tutar.
- Prev : Listedeki önceki ögenin adresini saklar (null)
- .
- .
- .
+ArrayList ve LinkedaList Farkları;
 
+1-LimkedList 3 karakter tutar ( lendi dğeri bir önceki ve bir sonraki)
+ ArrayList ise tek bir değeri tek bir yerde tutar
 
-Syntax;
-
-LinkedList<Type> linkedList = new LinkedList<>();
-
-
-
-
-
-
-
+2-LinkedListe bir elemana erişmek için baştan sona gidilir
+ ArrayListe ögenin indexi biliniyorsa daha kolay erişim sağlar
 
 
 

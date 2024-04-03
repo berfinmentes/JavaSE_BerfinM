@@ -1,0 +1,19 @@
+                            ---MAP---
+
+-> Kendileriyle ilişkili keyleri kullanarak değerlere(value) erişir
+
+3 farklı sets( küme) var;
+
+
+-Map inteface olduğu için nesnesini oluşturamayız
+
+-HashMap ->
+-Enum  ->
+-LinkedHashMap ->
+-WeakHashMap ->
+-TreeMap ->
+
+
+Syntax;
+Map<Key,Value> numbers = new HashMap<>();
+-java.util.Map paketi kulllanılır

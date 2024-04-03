@@ -1,0 +1,126 @@
+                            ---COLLECTİONS---
+
+-->Veri koleksiyonlarını yönetmek için kullanılan bir API(Apllaction Programming Interface) kütüphanedir.
+
+-->Java collection interfacesini doğrudan implementlenemez(Superinterface).
+Ancak "List,Set,Queue" implemen edilebilir(Subinterface.
+
+
+                     -List Interface-
+--> Array gibi verilşleri sıralı bir şekilde saklar
+--> Nesnesi oluşturulamaz
+
+1-ArrayList
+2-LinkedList
+3-Vector
+4-Stack
+--> List interface Collection interface'in tüm metotlarını içerir.
+
+
+                2-LinkedList
+
+ ->Çift bağllantılı liste işlevselliğini sağlar.
+
+ ->Yani öncesi ve sonrasını bağlı olarak tutar.
+ Prev : Listedeki önceki ögenin adresini saklar (null)
+ .
+ .
+ .
+
+
+
+Syntax;
+LinkedList<Type> linkedList = new LinkedList<>();
+
+
+->  contains() bir liste belirtilen ögeyi içeriyotrsa true döndürür
+
+-> addFirst()
+
+         animalList.add("Cow");
+
+        System.out.println("LinkedList : "+animalList);
+                               **LinkedList : [Cow]
+
+
+        animalList.addFirst("Dog");
+
+       System.out.println("LinkedList : "+animalList);
+                             **LinkedList after addFirst() : [Dog, Cow]
+
+
+-> addLast()
+
+        animalList.addLast("Cat");
+
+       System.out.println("LinkedList after addLast() : "+animalList);
+                                      **LinkedList after addLast() : [Dog, Cow, Cat]
+
+-> getFirst()
+
+-> getLast ()
+
+-> removeFirst()
+
+           animalList.removeFirst();
+
+           System.out.println("LinkedList after removeFirst() ");
+                                       **LinkedList after removeFirst() [Cow, Cat]
+-> removeLast()
+
+           animalList.removeLast();
+
+             System.out.println("LinkedList after removeLast() ");
+                                       **LinkedList after removeLast() [Cow]
+
+
+-> peek()  En baştaki elemana erişim
+
+
+        String str1 = languageQueue.peek();
+
+        System.out.println("Accessed Element : "+str1);
+
+        ***Accessed Element : Python
+
+-> poll() En başaki elemana erişip listeden çıkarır
+
+
+        String str2 = languageQueue.poll();
+
+        System.out.println("Removed element : "+str2);
+
+        **Removed element : Python
+
+        System.out.println("LinkedList after poll() : "+languageQueue);
+
+        **LinkedList after poll() : [Java, C]
+
+-> offer() Belirenen elamanı listenin sonuna ekler
+
+        languageQueue.offer("Swift");
+
+        System.out.println("LinkedList after offer() : "+languageQueue);
+
+      **LinkedList after offer() : [Java, C, Swift]
+
+-Queue ->  FIFO felsefesiyle çalışır First in First out)
+
+-Deque -> Hem baştan ve hem sondan elemen eklenip çıkarabilir
+
+
+
+!!!!Ekleme silme işlemleri yapılacaksa "LinkedList"
+     Arama yapılacaksa "ArrayList" kullanılır
+
+ArrayList ve LinkedaList Farkları;
+
+1-LimkedList 3 karakter tutar ( lendi dğeri bir önceki ve bir sonraki)
+ ArrayList ise tek bir değeri tek bir yerde tutar
+
+2-LinkedListe bir elemana erişmek için baştan sona gidilir
+ ArrayListe ögenin indexi biliniyorsa daha kolay erişim sağlar
+
+
+
+
