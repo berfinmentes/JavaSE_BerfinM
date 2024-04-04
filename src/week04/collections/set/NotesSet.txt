@@ -1,0 +1,21 @@
+                            ---SET---
+
+-TreeSet
+-HashSet
+-LinkedHshSet
+-EnumSet
+
+-> Listelerden farklı yinilemnen ögelr içermez
+
+-> Tekrar etmeyecek listeler saklanmak istediğinde kullanılır.
+
+ Syntax;
+Set<String> animal = new HashSet
+
+->Birçok metodu List metotlarıyla örnektir. Çünkü ikiside Collection'un subClasss'ıdır
+
+-holdAll() Belirtilen başka bir sette bulunan bütün ögeleri getirir.
+
+-hashCode() Bellekteki adresi döndürür
+
+
