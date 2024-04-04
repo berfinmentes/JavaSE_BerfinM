@@ -1,0 +1,19 @@
+                            ---GENERİCS---
+
+ -> Primitiv parametre kabul etmez(int,float,double..)
+
+ -> Herhangi bir veri türüyle çalışır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

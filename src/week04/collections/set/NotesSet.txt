@@ -1,9 +1,9 @@
                             ---SET---
 
--TreeSet
--HashSet
--LinkedHshSet
--EnumSet
+-TreeSet       -> Doğal sıralama (null değer almaz)
+-HashSet       -> Rastgele
+-LinkedHshSet  -> Ekleme sırasına göre (null bir değer alabilir)
+-EnumSet       ->
 
 -> Listelerden farklı yinilemnen ögelr içermez
 
@@ -17,5 +17,16 @@ Set<String> animal = new HashSet
 -holdAll() Belirtilen başka bir sette bulunan bütün ögeleri getirir.
 
 -hashCode() Bellekteki adresi döndürür
+
+
+
+
+
+
+
+
+
+
+
 
 
