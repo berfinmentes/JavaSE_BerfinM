@@ -1,0 +1,19 @@
+                            ---THREADS---
+
+ -> Thread oluşturuken thread sınıfı kullanılır
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

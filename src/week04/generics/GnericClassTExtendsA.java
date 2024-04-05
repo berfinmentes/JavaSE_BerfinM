@@ -12,5 +12,6 @@ public class GnericClassTExtendsA <T extends Number>{
 
         GnericClassTExtendsA<Integer> intObj = new GnericClassTExtendsA<Integer>();
 
+
     }
 }
