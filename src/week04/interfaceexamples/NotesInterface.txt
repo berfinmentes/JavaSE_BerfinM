@@ -4,24 +4,33 @@
 
 
 --> Interface'ın constructor'ı yoktur.
+
 --> Abstraction elde etmek için kullanılır
+
 --> Çoklu kalıtım
+
 --> Bir sınıfa sadece bir kez kalıtım yapılabilir, ama birden çok interface'i implement edebilir.
+
 --> Loose coupling(az bağımlılık/gevşek bağımlılık) için kullanılır.(Super class ve Sub class arasındaki bağlantı)
+
 --> Interface'de ki metotlar final. public ve ststic'dir
+
 --> -public static final-
     interface Lamguage {}
+
 --> Object oluşturulmaz.
+
 --> Anahtar kelimesi "implements"
+
 --->Abstract -Interface farkı;
+
 -Abstract "extends" Interface "implements" ile kaltım edilir
 -Abstract da hem soyut hede normal metotlar tanımlanabilir
 -Interface de ise sadece soyut ve gövdesiz metotlar
 -Interface çoklu kalıtım için "extend"
-
 -- Gövdeli (somut) yöntemler metotlar içeriyorsa "Abstract" kullanılmalı
 --Bir sınıfın birden fazla farklı sınıfa farklı özellikler bu durumda abstract
- sınıf yerine briden fazlas "interface" ile implement etmek daha mantıklıdır
+ sınıf yerine birden fazla "interface" ile implement etmek daha mantıklıdır
 
 
 

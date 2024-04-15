@@ -1,4 +1,4 @@
-package week04.odev01;
+package week04.polymorphism.odev01;
 
 public class Motorcycle extends Vehicle{
     boolean hasSidecar;
