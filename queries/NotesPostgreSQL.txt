@@ -1,0 +1,40 @@
+                             -PostgreSQL-
+
+<> -> Eşit değilse
+!= -> Eşit değilse
+LIKE -> Bir şey birşey gibi ise
+ILIKE -> Büyük küçük harfe duyarlı
+AND -> ve
+OR -> veya
+IN -> Range içinde mi
+BETWEEN -> Değer belli bir range içerisindeyse
+IS NULL ->
+NOT -> Değilini alır
+ -NOT LIKE
+ -NOT IN
+ -NOT BETWEEN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@ public class ParallelStreamExample01 {
 
         Arrays.asList("jackal", "racoon", "kangaroo").parallelStream().map(s -> {
             System.out.println(s);
-            return s.toUpperCase();5
+            return s.toUpperCase();
         }).forEach(System.out::println);
     }
 }

@@ -1,12 +1,7 @@
-package week05.Stream;
+package week05.stream;
 
 import java.util.*;
-import java.util.function.Predicate;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class StreamintermediateOperations {
     public static void main(String[] args) {
