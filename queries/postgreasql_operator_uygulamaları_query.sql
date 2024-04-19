@@ -74,6 +74,48 @@ SELECT * FROM cars
 WHERE brand IN ('Nissan', ('Aston Martin'), 'Ford');  -- Markası {Nissan, Aston Martin, Ford} olanları getir
 
 
+SELECT * FROM cars
+WHERE year BETWEEN 1950 AND 2000;  -- Yılı 1950 İLE 2000 yılları arasında olan bütün kayıtları getirir.
+
+
+SELECT *FROM cars
+WHERE model IS NULL; --Modeli NULL olan bütün kayıtları döndürür.
+
+
+--NOT operatörü operatörün doğrulğunu tersine çevirmek için LIKE, ILIKE, IN, BETWEEN, NULL operatörleri ile 
+--birlikte kullanılabilir
+SELECT * FROM cars
+WHERE brand NOT LIKE  --F ile başlamayan kayıtları döndürür -> LIKE case sensitive(büyük-küçük harf duyarlı)
+'F%';
+
+
+SELECT * FROM cars
+WHERE brand NOT ILIKE  --F veya f ile başlamayan kayıtları döndürür -> ILIKE case sensitive değil (büyük-küçük harf duyarsız)
+'f%';
+
+
+
+SELECT * FROM cars
+WHERE brand NOT IN('Cobra','Ford','Ferrari'); --Markanın bu listede olmadığı bütün kayıtları dödürür.
+
+
+SELECT * FROM cars
+WHERE year NOT BETWEEN 1950 AND 2000;  -- Yılı 1950 İLE 2000 yılları arasında olmayan bütün kayıtları getirir.
+
+
+SELECT * FROM cars
+WHERE model IS NOT NULL; --Model null olmayan bütün kayıtları dödürür.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
